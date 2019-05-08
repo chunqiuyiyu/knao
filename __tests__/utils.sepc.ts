@@ -1,12 +1,12 @@
 import { currentPlatform, setCmd, trim } from '../src/utils';
 
 it('Get current os platform.', (): void => {
-  expect(currentPlatform()).toBe('WIN');
+  expect(currentPlatform()).toBe('LINUX');
 });
 
 it('Set corresponding copy command.', (): void => {
   const platform = currentPlatform();
-  expect(setCmd(platform)).toBe('clip.exe');
+  expect(setCmd(platform)).toBe('xsel');
 });
 
 it('Trim unexpected charactor in string.', (): void => {
