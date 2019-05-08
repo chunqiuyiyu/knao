@@ -1,6 +1,7 @@
 # Knao 
 [![Travis (.org)](https://img.shields.io/travis/chunqiuyiyu/knao.svg?style=flat-square)](https://travis-ci.org/chunqiuyiyu/knao)
 > Place output of your previous command into the clipboard.
+
 ![Preview](/preview.gif)
 
 # Installation
