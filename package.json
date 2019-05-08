@@ -1,1 +1,39 @@
-
+{
+  "name": "knao",
+  "version": "1.0.0",
+  "description": "Place output of your previous command into the clipboard.",
+  "main": "bin/index.js",
+  "bin": {
+    "knao": "bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "console",
+    "shell"
+  ],
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --outDir bin"
+  },
+  "author": "chunqiuyiyu <chunqiuyiyu@outlook.com> (https://www.chunqiuyiyu.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.8",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunqiuyiyu/knao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chunqiuyiyu/knao/issues"
+  },
+  "homepage": "https://github.com/chunqiuyiyu/knao"
+}

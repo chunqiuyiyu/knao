@@ -1,0 +1,17 @@
+{
+  "parser":  "@typescript-eslint/parser", 
+  "extends":  [
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions":  {
+    "ecmaVersion":  2018
+  },
+  "env": {
+    "jest": true
+  },
+  "rules":  {
+    "@typescript-eslint/indent": ["error", 2],
+    "space-before-function-paren": "off",
+    "object-curly-newline": "off"
+  }
+}
