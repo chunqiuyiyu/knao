@@ -1,5 +1,6 @@
 # Knao
 > Place output of your previous command into the clipboard.
+[Preview](/preview.gif)
 
 # Installation
 ```bash
