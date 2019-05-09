@@ -6,7 +6,7 @@ it('Get current os platform.', (): void => {
 
 it('Set corresponding copy command.', (): void => {
   const platform = currentPlatform();
-  expect(setCmd(platform)).toBe('xsel');
+  expect(setCmd(platform)).toBe('xclip -selection c');
 });
 
 it('Trim unexpected charactor in string.', (): void => {

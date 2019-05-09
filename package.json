@@ -1,6 +1,6 @@
 {
   "name": "knao",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Place output of your previous command into the clipboard.",
   "main": "bin/index.js",
   "bin": {

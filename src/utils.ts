@@ -56,7 +56,7 @@ export function setCmd(platform: Platform): string {
       cmd = 'clip.exe';
       break;
     case Platform.LINUX:
-      cmd = 'xsel';
+      cmd = 'xclip -selection c';
       break;
     case Platform.MAC:
       cmd = 'pbcopy';
